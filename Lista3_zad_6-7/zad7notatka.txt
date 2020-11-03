@@ -1,0 +1,6 @@
+stworzyłem skrypt zad7.sh i skopiowałem go z nazwa zad7nice.sh. Po uruchomieniu 
+skryptów zad7.sh i zad7nice.sh za pomoca komendy ps -u sprawdziłem warto≤śc w kolumnie
+ %cpu wynosiła ona 84.2 dla zad7 i 82.3 dla zad7nice ponownie uruchomiłem skrypt 
+ zad7, a skrypt zad7nice uruchomiłem komendą: nice -n -16 bash zad7nice.sh ponownie
+  uruchomiłem ps -u i otrzymałem wartości 82.8 dla zad7nice i 67.2 dla zad7 w 
+  kolumnie %cpu

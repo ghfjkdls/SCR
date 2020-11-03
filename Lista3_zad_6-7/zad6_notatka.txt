@@ -1,0 +1,4 @@
+SIGSTOP zatrzymuje proces podobnie jak skrót ctr-z, tej flagi nie da się przechwycić
+ za pomocą trap. SIGCONT wznawia proces. Komenda bg powoduje prace w tle, a fg pracę w otoczeniu widocznym dla uzytkownika. Sygnał SIGCONT daje efekt bardziej podobny do fg,
+pod warunkiem, że proces domyślnie pracuje w widocznym otoczeniu. Jeżeli proces
+ domyślnie pracuje w tle to wtedy jest bardziej podobny do bg.

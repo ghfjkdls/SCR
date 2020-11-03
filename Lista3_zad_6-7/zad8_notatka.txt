@@ -1,0 +1,9 @@
+Po uruchomieniu skryptu w tle komendą: bash zad8.sh & po pewnym czasie otrzymałem
+ komunikat:bash: warning: shell level (1000) too high, resetting to 1
+po użyciu komundy ps -u zobaczyłem ogromną ilośc procesów
+
+ustawiłem potem limit procesów za pomocą komendy ulimit -n -3 
+
+poponawnym uruchomieniu skryptu w tle oglądajac je za pomocą komendy ulimit widzałem o wiele mniej procesów
+
+zabicie wszystkich stworzonych procesów następowało po zamknięciu terminala.
