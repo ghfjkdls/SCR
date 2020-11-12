@@ -1,0 +1,7 @@
+ w pierwszym zadaniu aby zwiększyć częstotliwośc odświerzania programu top dodałem
+ do  niego argument -d 0.1
+ 
+ program z zadania drugiogo poprawnie przechwytuje sygnały poza przypadkiem, w którym miałby po przechwyceniu sygnału zignorować go na zadana ilośc iteracji
+ 
+ w zadaniu 4 uruchomiłem i przetestowałem potok i nie znalazłem sposobu na sprawdzienie
+  w folderze proc kolejności występowania poleceń.
