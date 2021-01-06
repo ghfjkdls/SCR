@@ -25,6 +25,5 @@ for(t=0;t<NTHREADS;t++){
     exit(-1);
     }
    }
-//printf("Hello SCR. Written by thread %ld\n", threadid);
 pthread_exit(NULL);
 }
